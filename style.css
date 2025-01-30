@@ -11,29 +11,71 @@ body {
   height: 100vh;
   background-color: #f4f4f4;
 }
-.profile-card {
+.card-wrapper {
   background: white;
-  padding: 20px;
+  padding: 10px 20px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   text-align: center;
-  max-width: 350px;
+  max-width: 500px;
   width: 100%;
+  position: relative;
+  border: 5px solid #16A784;
 }
-.profile-card img {
+.img-container{
+display: flex;
+align-items: center;
+justify-content: center;
+  margin: 0 auto;
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
-  object-fit: cover;
+  border: 5px solid #16A784;
 }
-.profile-card h2 {
+.card-wrapper img {
+  border-radius: 50%;
+  /* object-fit: contain; */
+}
+.card-wrapper h2 {
   margin: 10px 0;
+  text-transform: uppercase;
+  color: #16A784;
 }
-.profile-card p {
-  color: #555;
-  margin: 5px 0;
+.card-wrapper .job-title {
+  margin: 10px 0;
+  font-size: 20px;
+  font-weight: 600;
+  
+}
+.card-wrapper p {
+  color: #000;
+  margin: 1rem 0;
+  line-height: 1.5;
+  text-align: center;
+  /* text-justify: newspaper; */
+}
+.card-wrapper .short-bio{
+  text-align: justify;
+}
+.social-links{
+  margin: 1rem 0;
 }
 .social-links a {
   margin: 0 10px;
   text-decoration: none;
-  color: #0073b1;
+  /* color: #0073b1;/ */
+  color: #16A784;
   font-size: 20px;
 }
+
+.social-links a svg{
+  /* color: #55acee; */
+  color: #16A784;
+  margin: 5px 20px;
+  width: 50px;
+  height: 50px;
+ 
+}
+/* .social-links a svg:hover{
+  color: #0073b1;
+} */

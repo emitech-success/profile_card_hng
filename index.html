@@ -9,19 +9,54 @@
 </head>
 
 <body>
-  <div class="profile-card">
-    <img src="./odezulu_augustine_passport.jpg" alt="Profile Picture" data-testid="profilePicture">
-    <h2 data-testid="fullName">Augustine Odezulu</h2>
-    <p data-testid="jobTitle">Front-End Developer</p>
-    <p data-testid="shortBio">Passionate front-end developer with a love for creating interactive and accessible web
-      applications.</p>
-    <p data-testid="currentLocation">Lagos, Nigeria</p>
-    <p data-testid="emailAddress">johndoe@example.com</p>
-    <div class="social-links" data-testid="socialLinks">
-      <a href="https://linkedin.com/in/johndoe" target="_blank">LinkedIn</a>
-      <a href="https://github.com/johndoe" target="_blank">GitHub</a>
+  <div class="card-wrapper">
+    <div class="img-container">
+      <img src="./odezulu_augustine_passport.jpg" alt="Profile Picture" data-testid="profilePicture">
     </div>
-    <p data-testid="currentTimeUTC" id="utcTime"></p>
+
+    <div class="card-details">
+
+
+      <h2 data-testid="fullName">Augustine Odezulu</h2>
+      <p data-testid="jobTitle" class="job-title">Front-End Developer</p>
+
+      <p data-testid="shortBio" class="short-bio">
+
+        Augustine Chukwuemeka Odezulu is a tech enthusiast and
+        IT strategist with great ardour for using software technology in providing product soltions.
+        He is a first class graduate of Agricultural and Bioresources Engineering, University of Nigeria, Nsukka.
+        He is an alumnus of TIIDElab fellowship. He is presently an intern in HNG and Frontend developer.
+      </p>
+      <p data-testid="currentLocation">Lagos, Nigeria</p>
+      <p data-testid="emailAddress">odezuluaugustine@gmail.com</p>
+      <div class="social-links" data-testid="socialLinks">
+        <!-- github -->
+        <a href="https://github.com/emitech-success/" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 47" id="Github">
+            <path fill="#4285f4" fill-rule="evenodd" d="M23.999 0C10.745 0 0 10.787 0 24.097a24.09 24.09 0 0 0 16.414 22.861c1.2.222 1.639-.522 1.639-1.16 0-.573-.021-2.088-.034-4.098-6.676 1.456-8.085-3.23-8.085-3.23-1.09-2.784-2.663-3.525-2.663-3.525-2.18-1.495.165-1.465.165-1.465 2.407.17 3.674 2.483 3.674 2.483 2.143 3.683 5.618 2.62 6.986 2.002.217-1.557.838-2.619 1.524-3.221-5.33-.609-10.932-2.675-10.932-11.908 0-2.63.934-4.781 2.47-6.466-.247-.61-1.07-3.059.235-6.377 0 0 2.015-.647 6.6 2.47 1.915-.534 3.967-.801 6.008-.811 2.039.01 4.092.277 6.01.811 4.58-3.117 6.592-2.47 6.592-2.47 1.31 3.318.486 5.767.239 6.377 1.538 1.685 2.467 3.835 2.467 6.466 0 9.256-5.611 11.293-10.957 11.89.86.744 1.629 2.213 1.629 4.462 0 3.22-.03 5.819-.03 6.61 0 .644.432 1.394 1.65 1.157C41.13 43.763 48 34.738 48 24.097 48 10.787 37.254 0 23.999 0" class="color3e75c3 svgShape"></path>
+          </svg>
+
+
+        </a>
+        
+
+        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="7.025 7.025 497.951 497.95" id="linkedin">
+          <linearGradient id="a" x1="-974.482" x2="-622.378" y1="1306.773" y2="1658.877" gradientTransform="translate(1054.43 -1226.825)" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#2489be"></stop>
+            <stop offset="1" stop-color="#0575b3"></stop>
+          </linearGradient>
+          <path fill="url(#a)" d="M256 7.025C118.494 7.025 7.025 118.494 7.025 256S118.494 504.975 256 504.975 504.976 393.506 504.976 256C504.975 118.494 393.504 7.025 256 7.025zm-66.427 369.343h-54.665V199.761h54.665v176.607zM161.98 176.633c-17.853 0-32.326-14.591-32.326-32.587 0-17.998 14.475-32.588 32.326-32.588s32.324 14.59 32.324 32.588c.001 17.997-14.472 32.587-32.324 32.587zm232.45 199.735h-54.4v-92.704c0-25.426-9.658-39.619-29.763-39.619-21.881 0-33.312 14.782-33.312 39.619v92.704h-52.43V199.761h52.43v23.786s15.771-29.173 53.219-29.173c37.449 0 64.257 22.866 64.257 70.169l-.001 111.825z"></path>
+        </svg>
+        </a>
+        <!-- twitter -->
+        <a href="https://x.com/ChukwuemekaOd?t=fOu5Y05_jKo3UXPvxZGtyg&s=09" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" viewBox="0 0 16 16" id="Twitter">
+            <path fill="#4285f4" d="M16 3.539a6.839 6.839 0 0 1-1.89.518 3.262 3.262 0 0 0 1.443-1.813 6.555 6.555 0 0 1-2.08.794 3.28 3.28 0 0 0-5.674 2.243c0 .26.022.51.076.748a9.284 9.284 0 0 1-6.761-3.431 3.285 3.285 0 0 0 1.008 4.384A3.24 3.24 0 0 1 .64 6.578v.036a3.295 3.295 0 0 0 2.628 3.223 3.274 3.274 0 0 1-.86.108 2.9 2.9 0 0 1-.621-.056 3.311 3.311 0 0 0 3.065 2.285 6.59 6.59 0 0 1-4.067 1.399c-.269 0-.527-.012-.785-.045A9.234 9.234 0 0 0 5.032 15c6.036 0 9.336-5 9.336-9.334 0-.145-.005-.285-.012-.424A6.544 6.544 0 0 0 16 3.539z" class="color03a9f4 svgShape"></path>
+          </svg>
+        </a>
+      </div>
+      <p data-testid="currentTimeUTC" id="utcTime"></p>
+    </div>
   </div>
 
   <script src="./script.js"></script>
